@@ -30,6 +30,7 @@ const Hero = () => {
         </div>
         <div className="hero__image-overlay" />
       </div>
+      <p>Test</p>
     </div>
   );
 };
