@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Showcase App
+
+This project is a car showcase application built using Next.js, Tailwind CSS, and TypeScript. It fetches car data from the [RapidAPI Cars API](https://rapidapi.com/apininjas/) and car images from the [Car Images API](https://www.imagin.studio/car-image-api). The app provides functionalities such as search, filtering, and pagination, along with a user-friendly and mobile-responsive UI.
+
+## Features
+
+- Fetches car data from RapidAPI Cars API
+- Fetches car images from Car Images API
+- Search functionality to find specific cars
+- Filter cars based on various parameters
+- Pagination for browsing through multiple car listings
+- Responsive design for seamless usage on mobile devices
+
+## Technologies Used
+
+- Next.js
+- TypeScript
+- Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/Kalutu/car-showcase
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Run the development server:
 
-## Learn More
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Upon launching the application, you'll land on the homepage showcasing the list of cars.
+- Use the search bar to find specific cars by name or model.
+- Filter cars based on various parameters such as make, model, year, etc.
+- Display more cars using the showmore button to explore more car listings.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/MyFeature`).
+3. Commit your changes (`git commit -am 'Add my feature'`).
+4. Push to the branch (`git push origin feature/MyFeature`).
+5. Open a pull request.
+
+## Credits
+
+- [RapidAPI Cars API](https://rapidapi.com/apininjas/)
+- [Car Images API](https://www.imagin.studio/car-image-api)
